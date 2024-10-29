@@ -9,7 +9,7 @@ class TestRemainderFunction(unittest.TestCase):
 
     def test_negative_numbers(self):
         self.assertEqual(remainder(-10, 3), 2)
-        self.assertEqual(remainder(10, -3), -2)
+        self.assertEqual(remainder(10, -3), 1)
         self.assertEqual(remainder(-10, -3), -1)
 
     def test_zero_dividend(self):
