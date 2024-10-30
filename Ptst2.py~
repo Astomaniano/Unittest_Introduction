@@ -1,0 +1,7 @@
+def check(number):
+    return number % 2 == 0
+
+def test_check():
+    assert check(2) == True
+    assert check(6) == True
+    assert check(220)  == True
